@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    font-family: "Source Code Pro", monospace;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+nav a:hover{
+    text-shadow: 15px 10px 20px rgb(50, 75, 255);
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between elements */
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#prof {
+    margin-left: auto; /* Aligns the profile element to the right */
+}
+.current{
+    color:rgb(50, 75, 255);
+    font-weight: bold;
+}
+.auth{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: green;
+}
+#status{
+    color: red
+}
